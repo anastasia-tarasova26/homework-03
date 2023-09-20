@@ -1,0 +1,185 @@
+
+body{
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.paragraph-list {
+
+}
+
+.paragraph-title {
+
+}
+
+.paragraph-text {
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+/* Header */
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-part-header {
+    color: #2e2f42;
+}
+
+.nav-menu-one {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-menu-one:hover,
+:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-item {
+    color: #434455;
+    font-weight: regular;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.contacts-item:hover,
+:focus {
+    color: #404bbf;
+}
+
+.contacts-list {
+
+}
+
+/* Main-content*/
+
+h2 {
+    font-size: 36px;
+    color: #2e2f42;
+    text-transform: capitalize;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h3 {
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+}
+
+.post-card {
+    background-color: #2E2F42;  
+}
+
+.title-post-card {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: #ffffff;
+    text-align: center;
+}
+
+.post-card-button {
+    color: #ffffff;
+    background: #4d5ae5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    text-indent: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.post-card-button:hover {
+    color: #ffffff;
+    background: #404bbf;
+}
+
+.post-card-button:focus {
+    color: #ffffff;
+    background: #404bbf;
+}
+
+.paragraph {
+    background-color: #ffffff;
+}
+
+/* Team section */
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-title-paragraph {
+font-size: 16px;
+}
+
+/* Portfolio  section */
+
+.portfolio {
+    background-color: #ffffff;
+}
+
+.portfolio-list {
+
+}
+
+/* Footer */
+
+footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo-part {
+    color: #f4f4fd;
+}
