@@ -102,6 +102,7 @@ margin: 0 auto;
 
 ul li{
     list-style-type: none;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 /* Header */
