@@ -107,8 +107,8 @@ ul li{
 
 /* Header */
 
-.heder {
-  border-bottom: 1px solid #e7e9fc;
+.header {
+  border-bottom: 1px solid #e7e9fc 
   
 }
 
@@ -251,16 +251,16 @@ h3 {
 
 .team {
     padding: 120px 0;
-    background: var(--CLOUD, #f4f4fd);
+    background:  #f4f4fd;
   }
   .container.section-team-container {
-    background: var(--CLOUD, #f4f4fd);
+    background: #f4f4fd;
     padding-left: 15px;
     padding-right: 15px;
     flex-shrink: 0;
   }
   .team-title {
-    color: var(--NAVY-BLUE, #2e2f42);
+    color:  #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -277,10 +277,7 @@ h3 {
   .team-cards {
     border-radius: 0px 0px 4px 4px;
     background:  #fff;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-      width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   .team-name-profession {
     padding: 32px 0;
