@@ -69,7 +69,7 @@ margin: 0 auto;
 }
 
 .paragraph-list-item{
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .paragraph-title {
@@ -149,6 +149,9 @@ ul li{
 
 .contacts {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-list {
   padding: 0;
@@ -268,7 +271,7 @@ h3 {
   .team-cards {
     border-radius: 0px 0px 4px 4px;
     background:  #fff;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   .team-name-profession {
     padding: 32px 0;
