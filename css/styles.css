@@ -48,7 +48,10 @@ a{
     text-decoration: none;
 }
 
-
+img {
+  display: block;
+  max-width: 100%;
+}
 
 .paragraph{
   padding: 120px 0;
@@ -102,6 +105,12 @@ ul li{
 }
 
 /* Header */
+
+.heder-navigation {
+  border-bottom: 1px solid #e7e9fc;
+  background:  #fff;
+  color: #2e2f42;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
