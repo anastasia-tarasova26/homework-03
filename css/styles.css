@@ -14,11 +14,31 @@ body{
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button{
+  cursor: pointer;
+  border:none;
+  border-radius: 4px;
+}
+
+ul,
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
 main {
     flex-grow: 1;
   }
@@ -48,10 +68,7 @@ a{
     text-decoration: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
+
 
 .paragraph{
   padding: 120px 0;
@@ -65,6 +82,8 @@ margin: 0 auto;
 .paragraph-list {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -100,9 +119,7 @@ margin: 0 auto;
   letter-spacing: 0.02em;
 }
 
-ul li{
-    list-style-type: none;
-}
+
 
 /* Header */
 
@@ -130,6 +147,7 @@ ul li{
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    margin: 0;
 }
 
 .menu-list {
@@ -148,9 +166,7 @@ ul li{
 }
 
 .contacts {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+  font-style: normal;
 }
 
 .contacts-list {
@@ -272,6 +288,8 @@ h3 {
   .team-list {
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
   }
   
   .team-cards {
@@ -310,7 +328,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px
+  row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-list-item{
